@@ -1,0 +1,589 @@
+<html>
+  <head>
+    <!-- Create an HTML comment within your document that shows your name and student number. -->
+
+    <!-- Student ID: Hon Ming Chun -->
+    <!-- Student Number: 301250853 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" type="image/x-icon" href="ysl.jpeg" />
+  </head>
+  <body>
+    <!-- Add a banner for your page (not shown in above picture) to include a product- related picture, the product company logo hyperlinked to their website, some title text. -->
+    <img class="brand-logo" src="ysl.jpeg" alt="" />
+
+    <!-- When you click the “Home Page” hyperlink, redirect the browser to your homepage (index.html) on studentweb or localhost. -->
+    <a class="homepage" href="index.html">Homepage</a>
+    <p class="ysl-text"><strong>Saint Laurent</strong></p>
+    <p class="ss14"><strong>SS14</strong></p>
+    <a class="shop-now" href="#merch-list">Shop now</a>
+    <a class="official-web" href="https://www.ysl.com/en-ca">Offical Website</a>
+    <div class="slideshow-container">
+      <div class="picSlides fade">
+        <div class="number">1 / 5</div>
+        <img src="ysl-1.jpeg" style="width: 100%; height: 800px" />
+        <div class="text">SS14 Lookbook</div>
+      </div>
+
+      <div class="picSlides fade">
+        <div class="number">2 / 5</div>
+        <img src="ysl-2.jpeg" style="width: 100%; height: 800px" />
+        <div class="text">SS14 Lookbook</div>
+      </div>
+
+      <div class="picSlides fade">
+        <div class="number">3 / 5</div>
+        <img src="ysl-3.jpeg" style="width: 100%; height: 800px" />
+        <div class="text">SS14 Lookbook</div>
+      </div>
+
+      <div class="picSlides fade">
+        <div class="number">4 / 5</div>
+        <img src="ysl-4.jpeg" style="width: 100%; height: 800px" />
+        <div class="text">SS14 Lookbook</div>
+      </div>
+
+      <div class="picSlides fade">
+        <div class="number">5 / 5</div>
+        <img src="ysl-5.jpeg" style="width: 100%; height: 800px" />
+        <div class="text">SS14 Lookbook</div>
+      </div>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <section id="merch-list">
+      <h3 class="new-arrival">New Arrival</h3>
+      <div class="product-div">
+        <table>
+          <tr>
+            <th>
+              <button onclick="showContent()">
+                <img src="boot-1.jpeg" alt="" style="width: 300px" />
+                <p class="product-name">
+                  TERRY JODHPUR BOOTS IN SMOOTH LEATHER
+                </p>
+                <p class="price">CAD$ 1,525</p>
+              </button>
+            </th>
+            <th>
+              <button onclick="showContent2()">
+                <img src="boot-2.jpeg" alt="" style="width: 300px" />
+                <p class="product-name">WYATT CHELSEA BOOTS IN SUEDE</p>
+                <p class="price">CAD$ 1,250</p>
+              </button>
+            </th>
+
+            <th>
+              <button onclick="showContent3()">
+                <img src="boot-3.jpeg" alt="" style="width: 300px" />
+                <p class="product-name">WYATT ZIPPED BOOTS IN SUEDE</p>
+                <p class="price">CAD$ 1,290</p>
+              </button>
+            </th>
+          </tr>
+
+          <tr></tr>
+        </table>
+      </div>
+    </section>
+
+    <div id="content-div">
+      <div class="show-detail">
+        <table>
+          <tr>
+            <th>
+              <img src="boot-1.jpeg" width="450" height="700px" />
+              <br />
+              <a href="details.html">View Larger Picture</a>
+            </th>
+
+            <th style="text-align: left">
+              <p>TERRY JODHPUR BOOTS IN SMOOTH LEATHER</p>
+              <p>CAD$ 1,525</p>
+              <p style="font-weight: normal">
+                ANKLE BOOTS WITH A SQUARED <br />
+                POINTED TOE AND A BLOCK HEEL, <br />
+                FEATURING A STRAP AROUND THE ANKLE <br />
+                WITH A METAL BUCKLE.
+              </p>
+              <!-- When you click the “View Larger Picture” hyperlink, open another document called Details.html, that displays a detailed (larger) picture of your product and a “back” hyperlink to the product info page. -->
+
+              <ul style="font-weight: normal">
+                <li>100% CALFSKIN LEATHER</li>
+                <li>LEATHER SOLE</li>
+                <li>TOTAL HEEL HEIGHT: 4.5 CM / 1.8 INCHES</li>
+                <li>STYLE ID 7174521YL001000</li>
+                <li>MADE IN ITALY</li>
+              </ul>
+
+              <p>color</p>
+              <p style="font-weight: normal">Noir</p>
+
+              <table>
+                <tr class="table-row" style="background-color: lightblue">
+                  <th class="table-header">Description</th>
+                  <th class="table-header">Price</th>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-header">WYATT CHELSEA BOOTS IN SUEDE</th>
+                  <th class="table-header">CAD$ 1,250</th>
+                </tr>
+                <tr class="table-row" style="background-color: grey">
+                  <th class="table-header">WYATT ZIPPED BOOTS IN SUEDE</th>
+                  <th class="table-header">CAD$ 1,290</th>
+                </tr>
+              </table>
+            </th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div id="content-div-2">
+      <div class="show-detail">
+        <table>
+          <tr>
+            <th>
+              <img src="boot-2.jpeg" width="450" height="700px" />
+              <br />
+              <a href="details-2.html">View Larger Picture</a>
+            </th>
+
+            <th style="text-align: left">
+              <p>WYATT CHELSEA BOOTS IN SUEDE</p>
+              <p>CAD$ 1,250</p>
+              <p style="font-weight: normal">
+                CLASSIC SAINT LAURENT CHELSEA<br />
+                BOOTIE WITH ELASTIC PANELS AND <br />
+                STACKED HEEL
+              </p>
+              <!-- When you click the “View Larger Picture” hyperlink, open another document called Details.html, that displays a detailed (larger) picture of your product and a “back” hyperlink to the product info page. -->
+
+              <ul style="font-weight: normal">
+                <li>100% CALFSKIN LEATHER</li>
+                <li>TOTAL HEEL HEIGHT: 4 CM / 1.5 INCHES</li>
+                <li>LEATHER SOLE</li>
+                <li>BACK PULL-ON TAB</li>
+                <li>STYLE ID 592017BT3009848</li>
+                <li>MADE IN ITALY</li>
+              </ul>
+
+              <p>color</p>
+              <p style="font-weight: normal">TAN</p>
+
+              <table>
+                <tr class="table-row" style="background-color: lightblue">
+                  <th class="table-header">Description</th>
+                  <th class="table-header">Price</th>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-header">
+                    TERRY JODHPUR BOOTS IN SMOOTH LEATHER
+                  </th>
+                  <th class="table-header">CAD$ 1,525</th>
+                </tr>
+                <tr class="table-row" style="background-color: grey">
+                  <th class="table-header">WYATT ZIPPED BOOTS IN SUEDE</th>
+                  <th class="table-header">CAD$ 1,290</th>
+                </tr>
+              </table>
+            </th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div id="content-div-3">
+      <div class="show-detail">
+        <table>
+          <tr>
+            <th>
+              <img src="boot-3.jpeg" width="450" height="700px" />
+              <br />
+              <a href="details-3.html">View Larger Picture</a>
+            </th>
+
+            <th style="text-align: left">
+              <p>WYATT ZIPPED BOOTS IN SUEDE</p>
+              <p>CAD$ 1,290</p>
+              <p style="font-weight: normal">
+                ANKLE BOOTS WITH A ROUND <br />
+                POINTED TOE, WESTERN STITCHED <br />
+                VAMP AND STACKED HEEL, <br />
+                FEATURING A SIDE ZIP CLOSURE.
+              </p>
+              <!-- When you click the “View Larger Picture” hyperlink, open another document called Details.html, that displays a detailed (larger) picture of your product and a “back” hyperlink to the product info page. -->
+
+              <ul style="font-weight: normal">
+                <li>100% CALFSKIN</li>
+                <li>TOTAL HEEL HEIGHT: 4 CM / 1.5 INCHES</li>
+                <li>LEATHER SOLE</li>
+                <li>STYLE ID 6491031NZ002635</li>
+                <li>MADE IN ITALY</li>
+              </ul>
+
+              <p>color</p>
+              <p style="font-weight: normal">LAND</p>
+
+              <table>
+                <tr class="table-row" style="background-color: lightblue">
+                  <th class="table-header">Description</th>
+                  <th class="table-header">Price</th>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-header">
+                    TERRY JODHPUR BOOTS IN SMOOTH LEATHER
+                  </th>
+                  <th class="table-header">CAD$ 1,525</th>
+                </tr>
+
+                <tr class="table-row" style="background-color: grey">
+                  <th class="table-header">WYATT CHELSEA BOOTS IN SUEDE</th>
+                  <th class="table-header">CAD$ 1,250</th>
+                </tr>
+              </table>
+            </th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <hr />
+
+    <h3 style="text-align: center">Store Map (ON)</h3>
+
+    <!-- dd a hotspot map of Canada (not shown in above picture) and hyperlink 3 provinces to the website of local distributors of the product. -->
+
+    <div class="map-div">
+      <img class="map-img" src="ysl-map.png" alt="" />
+    </div>
+
+    <a
+      class="yorkdale"
+      href="https://www.google.com/maps/place/Saint+Laurent/@43.7254753,-79.5561269,12z/data=!3m1!5s0x882b323414fd66c5:0xebbb95527c58e388!4m9!1m2!2m1!1sysl+toronto!3m5!1s0x882b3234154f25cb:0xffe0574c02173ed2!8m2!3d43.7254767!4d-79.4516088!15sCgt5c2wgdG9yb250byIDiAEBWg0iC3lzbCB0b3JvbnRvkgEOY2xvdGhpbmdfc3RvcmWaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUkRaelZZWlRoUlJSQULgAQA"
+      >Yorkdale</a
+    >
+
+    <a
+      class="renfrew"
+      href="https://www.google.com/maps/place/Saint+Laurent/@43.7071127,-79.4569066,12z/data=!3m1!5s0x882b34ae5ef06d85:0xe8c76fea30b41cec!4m9!1m2!2m1!1sysl+toronto!3m5!1s0x882b35f10ba7b89d:0x8fa5e5da4184f11b!8m2!3d43.6700834!4d-79.3885752!15sCgt5c2wgdG9yb250byIDiAEBWg0iC3lzbCB0b3JvbnRvkgEOY2xvdGhpbmdfc3RvcmWaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUkhlbVJFTkdoblJSQULgAQA"
+      >Renfrew</a
+    >
+
+    <a
+      class="yonge"
+      href="https://www.google.com/maps/place/Saint+Laurent/@43.7071127,-79.4569066,12z/data=!3m1!5s0x882b34b3bf6f631f:0xacaea205c9fdf7fe!4m9!1m2!2m1!1sysl+toronto!3m5!1s0x89d4cbce183dcad3:0x574efeb991fc6bf4!8m2!3d43.6519129!4d-79.3797857!15sCgt5c2wgdG9yb250byIDiAEBWg0iC3lzbCB0b3JvbnRvkgEZZmFzaGlvbl9hY2Nlc3Nvcmllc19zdG9yZeABAA"
+      >Yonge</a
+    >
+    <div class="footer">
+      <h3
+        style="
+          margin-left: 20px;
+          font-size: 13px;
+          z-index: 100;
+          position: absolute;
+        "
+      >
+        &copy; Copyright Hon Ming Chun - 301250853 - COMP213 - Fall 2022
+      </h3>
+    </div>
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("picSlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 4000);
+      }
+
+      function showContent() {
+        var temp = document.getElementById("content-div");
+        if (temp.style.display === "block") {
+          temp.style.display = "none";
+        } else {
+          temp.style.display = "block";
+        }
+      }
+
+      function showContent2() {
+        var temp = document.getElementById("content-div-2");
+        if (temp.style.display === "block") {
+          temp.style.display = "none";
+        } else {
+          temp.style.display = "block";
+        }
+      }
+
+      function showContent3() {
+        var temp = document.getElementById("content-div-3");
+        if (temp.style.display === "block") {
+          temp.style.display = "none";
+        } else {
+          temp.style.display = "block";
+        }
+      }
+    </script>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Verdana, sans-serif;
+      }
+      .picSlides {
+        display: none;
+      }
+      img {
+        vertical-align: middle;
+      }
+
+      .slideshow-container {
+        width: 100%;
+        height: 800px;
+        position: relative;
+        margin: auto;
+      }
+
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+
+      .number {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+
+      .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+
+      .active {
+        background-color: #717171;
+      }
+
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+
+      @keyframes fade {
+        from {
+          opacity: 0.4;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @media only screen and (max-width: 300px) {
+        .text {
+          font-size: 11px;
+        }
+      }
+
+      /* ***************************** */
+
+      .brand-logo {
+        position: absolute;
+        z-index: 100;
+        margin-left: 1305px;
+        margin-top: 720px;
+        width: 100px;
+        height: 80px;
+      }
+
+      .homepage {
+        z-index: 100;
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        margin-left: 1250px;
+      }
+
+      .ysl-text {
+        z-index: 100;
+        position: absolute;
+        color: white;
+        font-size: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 480px;
+        margin-top: 280px;
+      }
+
+      .ss14 {
+        z-index: 100;
+        position: absolute;
+        color: white;
+        font-size: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 630px;
+        margin-top: 370px;
+      }
+
+      .shop-now {
+        z-index: 100;
+        position: absolute;
+        color: lightblue;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 550px;
+        margin-top: 450px;
+      }
+
+      .official-web {
+        z-index: 100;
+        position: absolute;
+        color: lightblue;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 740px;
+        margin-top: 450px;
+      }
+
+      #merch-list {
+        padding-bottom: 30px;
+      }
+
+      .new-arrival {
+        text-align: center;
+        margin-top: 100px;
+      }
+
+      .product-name,
+      .price {
+        font-size: 10px;
+        text-align: left;
+      }
+
+      .product-div {
+        margin-left: 250px;
+      }
+
+      .product-detail {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      #content-div,
+      #content-div-2,
+      #content-div-3 {
+        display: none;
+
+        /* Design the page layout to fit a 1024px screen (width:980px) and show the content centered on the screen */
+        width: 980px;
+        background-color: lightgray;
+        border-radius: 10px;
+        margin-left: 240px;
+      }
+
+      .show-detail {
+        margin-left: 50px;
+        padding: 20px;
+      }
+
+      .map-img {
+        position: absolute;
+        width: 100%;
+      }
+
+      .yorkdale {
+        z-index: 100;
+        position: absolute;
+        margin-left: 300px;
+        margin-top: 30px;
+        background-color: yellow;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      .renfrew {
+        z-index: 100;
+        position: absolute;
+        margin-left: 720px;
+        margin-top: 550px;
+        background-color: yellow;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      .yonge {
+        z-index: 100;
+        position: absolute;
+        margin-left: 760px;
+        margin-top: 720px;
+        background-color: yellow;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      .footer {
+        z-index: 100;
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        color: grey;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 72%;
+      }
+
+      .table-row {
+        text-align: left;
+      }
+
+      .table-header {
+        font-weight: normal;
+      }
+
+      th {
+        padding: 5px;
+      }
+    </style>
+  </body>
+</html>
